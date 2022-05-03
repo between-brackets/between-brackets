@@ -6,7 +6,7 @@
 2. [О нас](https://github.com/between-brackets/between-brackets#о-нас)
 
 ## Книги
-+ [Desing Data-intensive Application Martin Kleppmann](https://github.com/between-brackets/between-brackets/desing-data-intensive-application/desing-data-intensive-application.md)
++ [Desing Data-intensive Application Martin Kleppmann](https://github.com/between-brackets/between-brackets/blob/main/desing-data-intensive-application/desing-data-intensive-application.md#desing-data-intensive-application-martin-kleppmann)
 
 # О нас 
 Всем привет 👋, я решил запустить собственный проект - [книжный клуб { между скобок }](https://t.me/backend_megdu_skobkah)

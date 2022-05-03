@@ -6,6 +6,7 @@
 2. [О нас](https://github.com/between-brackets/between-brackets#о-нас)
 
 ## Книги
+Ссылки на разбор и артефакты после встреч 
 + [Desing Data-intensive Application Martin Kleppmann](https://github.com/between-brackets/between-brackets/blob/main/desing-data-intensive-application/desing-data-intensive-application.md#desing-data-intensive-application-martin-kleppmann)
 
 # О нас 

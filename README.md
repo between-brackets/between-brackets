@@ -1,6 +1,9 @@
 # Книжный клуб [{ между скобок }](https://t.me/backend_megdu_skobkah)
 Книжный клуб для развития soft/hard скилов 
 
+Google календарь с расписанием всех ивентов 
+https://calendar.google.com/calendar/u/0?cid=ZnNmbmt1MGkwaTNnODBuam8xYTdjdnM4M2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+
 ## Table of Contents
 1. [Книги](https://github.com/between-brackets/between-brackets#книги)
 2. [О нас](https://github.com/between-brackets/between-brackets#о-нас)

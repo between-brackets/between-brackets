@@ -10,7 +10,7 @@ https://calendar.google.com/calendar/u/0?cid=ZnNmbmt1MGkwaTNnODBuam8xYTdjdnM4M2N
 
 ## Книги
 Ссылки на разбор и артефакты после встреч 
-+ [Desing Data-intensive Application Martin Kleppmann](/desing-data-intensive-application.md)
++ [Desing Data-intensive Application Martin Kleppmann](/desing-data-intensive-application/desing-data-intensive-application.md)
 
 # О нас 
 Всем привет 👋, я решил запустить собственный проект - [книжный клуб { между скобок }](https://t.me/backend_megdu_skobkah)

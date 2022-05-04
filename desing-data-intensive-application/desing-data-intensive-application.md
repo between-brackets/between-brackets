@@ -1,9 +1,9 @@
 # Desing Data-intensive Application Martin Kleppmann
 
 # Table of Contents
-1. [CHAPTER 1-4](https://github.com/between-brackets/desing-data-intensive-application#chapter-1-4)
-2. [CHAPTER 5. Replication and CHAPTER 6. Partitioning](https://github.com/between-brackets/desing-data-intensive-application#chapter-5-replication-and-chapter-6-partitioning)
-3. [CHAPTER 7. Transactions](https://github.com/between-brackets/desing-data-intensive-application#chapter-7-transactions)
+1. [CHAPTER 1-4](#chapter-1-4)
+2. [CHAPTER 5. Replication and CHAPTER 6. Partitioning](#chapter-5-replication-and-chapter-6-partitioning)
+3. [CHAPTER 7. Transactions](#chapter-7-transactions)
 
 ## CHAPTER 1-4
 ### Moderator

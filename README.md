@@ -5,12 +5,12 @@ Google календарь с расписанием всех ивентов
 https://calendar.google.com/calendar/u/0?cid=ZnNmbmt1MGkwaTNnODBuam8xYTdjdnM4M2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
 ## Table of Contents
-1. [Книги](https://github.com/between-brackets/between-brackets#книги)
-2. [О нас](https://github.com/between-brackets/between-brackets#о-нас)
+1. [Книги](#книги)
+2. [О нас](#о-нас)
 
 ## Книги
 Ссылки на разбор и артефакты после встреч 
-+ [Desing Data-intensive Application Martin Kleppmann](https://github.com/between-brackets/between-brackets/blob/main/desing-data-intensive-application/desing-data-intensive-application.md#desing-data-intensive-application-martin-kleppmann)
++ [Desing Data-intensive Application Martin Kleppmann](/desing-data-intensive-application.md)
 
 # О нас 
 Всем привет 👋, я решил запустить собственный проект - [книжный клуб { между скобок }](https://t.me/backend_megdu_skobkah)

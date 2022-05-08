@@ -111,9 +111,6 @@ Java Tech Lead в команде Альфа-Мобайл. Максим знае�
 ## CHAPTER 8. The trouble with distributed systems
 ### Summary 
 - #### Intro
-    - TL;DR
-        - ![image.png](/desing-data-intensive-application/assets/08/image_1652016731239_0.png)
-        - ![image.png](/desing-data-intensive-application/assets/08/image_1652016740212_0.png)
     - This chapter is a thoroughly pessimistic and depressing overview of **things that may go wrong in a distributed system**. We will look into problems with networks (Unreliable Networks); clocks and timing issues (Unreliable Clocks); and we’ll discuss to what degree they are avoidable
     - In a distributed system, there may well be some parts of the **system that are broken in some unpredictable way, even though other parts of the system are working fine**. This is known as a partial failure. **The difficulty is that partial failures are nondeterministic**: if you try to do anything involving multiple nodes and the network, it may sometimes work and sometimes unpredictably fail. As we shall see, you may not even know whether something succeeded or not, as the time it takes for a message to travel across a network is also nondeterministic!
 - #### 📉 Faults and Partial Failures

@@ -107,4 +107,8 @@ Java Tech Lead в команде Альфа-Мобайл. Максим знае�
 * https://youtu.be/bAhxpqHfP8I
 * https://www.ozon.ru/product/mikroservisy-patterny-razrabotki-i-refaktoringa-154840382/?sh=IMwhNa1XQQ
 
+## CHAPTER 8. The trouble with distributed systems
+
+### Summary
+[Основные мысли 8 главы](/desing-data-intensive-application/summary/08-The-trouble-with-distributed-systems.md)
 

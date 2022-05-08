@@ -4,6 +4,7 @@
 1. [CHAPTER 1-4](#chapter-1-4)
 2. [CHAPTER 5. Replication and CHAPTER 6. Partitioning](#chapter-5-replication-and-chapter-6-partitioning)
 3. [CHAPTER 7. Transactions](#chapter-7-transactions)
+4. [CHAPTER 8. The trouble with distributed systems](#chapter-8-The-trouble-with-distributed-systems)
 
 ## CHAPTER 1-4
 ### Moderator

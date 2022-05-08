@@ -2,8 +2,8 @@
 ## 8. The trouble with distributed systems
 - ### Intro
     - TL;DR
-        - ![image.png](../assets/08/image_1652016731239_0.png)
-        - ![image.png](../assets/08/image_1652016740212_0.png)
+        - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1652016731239_0.png)
+        - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1652016740212_0.png)
     - This chapter is a thoroughly pessimistic and depressing overview of **things that may go wrong in a distributed system**. We will look into problems with networks (Unreliable Networks); clocks and timing issues (Unreliable Clocks); and we’ll discuss to what degree they are avoidable
     - In a distributed system, there may well be some parts of the **system that are broken in some unpredictable way, even though other parts of the system are working fine**. This is known as a partial failure. **The difficulty is that partial failures are nondeterministic**: if you try to do anything involving multiple nodes and the network, it may sometimes work and sometimes unpredictably fail. As we shall see, you may not even know whether something succeeded or not, as the time it takes for a message to travel across a network is also nondeterministic!
 - ### 📉 Faults and Partial Failures
@@ -19,7 +19,7 @@
         - The **remote node may have temporarily stopped responding** (perhaps it is experiencing a long garbage collection pause; see Process Pauses), but it will start responding again later.
         - The **remote node may have processed your request, but the response has been lost on the network** (perhaps a network switch has been misconfigured).
         - The **remote node may have processed your request, but the response has been delayed and will be delivered later** (perhaps the network or your own machine is overloaded).
-        - ![image.png](../assets/08/image_1651981631775_0.png)
+        - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1651981631775_0.png)
             - If you send a request and don’t get a response, it’s not possible to distinguish whether
                 - (a) the request was lost
                 - (b) the remote node is down
@@ -45,7 +45,7 @@
         - a day may not have exactly 86,400 seconds,
         - time-of-day clocks may move backward in time, and the time on one node may be quite different from the time on another node.
     - This conflict resolution strategy is called **last write wins** (LWW), and it is widely used in both multi-leader replication and leaderless databases such as Cassandra and Riak
-        - ![image.png](../assets/08/image_1651982795655_0.png)
+        - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1651982795655_0.png)
     - So-called **logical clocks**, which are based on incrementing counters rather than an oscillating quartz crystal, are a safer alternative for ordering events (see Detecting Concurrent Writes). Logical clocks do not measure the time of day or the number of seconds elapsed, only the relative ordering of events (whether one event happened before or after another). In contrast, time-of-day and monotonic clocks, which measure actual elapsed time, are also known as physical clocks
     - Thus, **it doesn’t make sense to think of a clock reading as a point in time—it is more like a range of times, within a confidence interval**: for example, a system may be 95% confident that the time now is between 10.3 and 10.5 seconds past the minute, but it doesn’t know any more precisely than that If we only know the time +/– 100 ms, the microsecond digits in the timestamp are essentially meaningless.
     - Say you have a database with a single leader per partition Only the leader is allowed to accept writes. **How does a node know that it is still leader** (that it hasn’t been declared dead by the others), and that it may safely accept writes?
@@ -67,8 +67,8 @@
         - Only one transaction or client is allowed to hold the lock for a particular resource or object, to prevent concurrently writing to it
     - Implementing this in a distributed system requires care: even if a node believes that it is the chosen one (the leader of the partition, the holder of the lock, the request handler of the userwho successfully grabbed the username), **that doesn’t necessarily mean a quorum of nodes agrees**! A node may have formerly been the leader, but if the other nodes declared it dead in the meantime(e.g., due to a network interruption or GC pause), **it may have been demoted and another leader may have already been elected**
         - Making access to storage safe by allowing writes only in the order of increasing **fencing tokens**
-            - ![image.png](../assets/08/image_1651981713178_0.png)
-            - ![image.png](../assets/08/image_1651981754470_0.png)
+            - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1651981713178_0.png)
+            - ![image.png](/desing-data-intensive-application/summary/assets/08/image_1651981754470_0.png)
     - **Nodes may lie** (send arbitrary faulty or corrupted responses)—for example, if a node may claim to have received a particular message when in fact it didn’t. Such behavior is known as a Byzantine fault, and the problem of reaching consensus in this untrusting environment is known as the Byzantine Generals Problem
         - The Byzantine Generals Problem is a generalization of the so-called Two Generals Problem, which imagines a situation in which two army generals need to agree on a battle plan. As they
             have set up camp on two different sites, they can only communicate by messenger, and the messengers sometimes get delayed or lost (like packets in a network)

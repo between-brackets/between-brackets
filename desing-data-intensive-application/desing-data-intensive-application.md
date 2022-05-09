@@ -1,4 +1,4 @@
-# Desing Data-intensive Application Martin Kleppmann
+# Designing Data-Intensive Applications Martin Kleppmann
 
 # Table of Contents
 1. [CHAPTER 1-4](#chapter-1-4)
